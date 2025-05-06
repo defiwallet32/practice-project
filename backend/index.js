@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get("/generate-link", (req, res) => {
   const id = uuidv4();
-  res.send(`http://localhost:3000/?id=${id}`);
+  res.send(`https://jade-sopapillas-a82572.netlify.app/?id=${id}`);
 });
 
 app.listen(5000, () => {
